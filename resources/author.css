@@ -1,0 +1,6 @@
+*[class*="topic/foreign"][outputclass="latex"] {
+	visibility: -oxy-collapse-text;
+	content: oxy_editor(
+      webappRendererClassName, "com.oxygenxml.webapp.latex.WebappLatexRenderer"
+      edit, "custom");
+}

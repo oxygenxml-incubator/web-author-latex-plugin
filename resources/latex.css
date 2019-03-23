@@ -1,0 +1,15 @@
+/**
+ * LaTex dialog.
+ */
+#latex-edit-area {
+  display:block;
+	height: 50%;
+  width: 100%;
+  resize: none;
+}
+
+#latex-preview {
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+}

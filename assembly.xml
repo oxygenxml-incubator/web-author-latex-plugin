@@ -1,0 +1,49 @@
+<assembly
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+	<id>plugin</id>
+	<formats>
+		<format>jar</format>
+	</formats>
+
+	<files>
+		<file>
+			<source>target/build/${project.build.finalName}.jar</source>
+			<outputDirectory>/lib</outputDirectory>
+		</file>
+		<file>
+			<source>plugin.xml</source>
+			<outputDirectory>/</outputDirectory>
+			<filtered>true</filtered>
+		</file>
+		<file>
+			<source>LICENSE</source>
+			<outputDirectory>/</outputDirectory>
+		</file>
+		<file>
+			<source>third-party-components.xml</source>
+			<outputDirectory>/</outputDirectory>
+		</file>
+	</files>
+
+	<fileSets>
+		<fileSet>
+			<directory>web</directory>
+			<outputDirectory>/web</outputDirectory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+
+	<!-- In case one of your plugins needs to package its dependencies, use a section like the one below. -->
+	<dependencySets>
+	    <dependencySet>
+	        <unpack>false</unpack>
+	        <scope>runtime</scope>
+	        <outputDirectory>/lib</outputDirectory>
+	        <useProjectArtifact>false</useProjectArtifact>
+	    </dependencySet>
+	</dependencySets>	
+</assembly>
