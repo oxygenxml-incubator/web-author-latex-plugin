@@ -5,6 +5,9 @@
     tex2jax : {
       processEscapes : true,
     },
+    "HTML-CSS": {
+      imageFont: null
+    },
     messageStyle : "none",
     showMathMenu : false,
   };
@@ -43,8 +46,7 @@
     if (!scriptAdded) {
       var script = document.createElement("script");
       script.type = "text/javascript";
-      // TODO: include a local copy of MathJax
-      script.src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js";
+      script.src = "../plugin-resources/latex/MathJax-2.6/MathJax.js";
 
       script.text =
           'MathJax.Hub.Config(' + JSON.stringify(config) + ');'
