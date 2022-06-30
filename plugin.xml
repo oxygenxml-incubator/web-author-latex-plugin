@@ -7,7 +7,7 @@
     name="Latex"
     description="Provides support for editing Latex equations"
     version="${project.nosnapshot.version}"
-    vendor="Syncro Soft SRL"
+    vendor="Syncro Soft"
     class="com.oxygenxml.webapp.latex.LatexPlugin">
     <runtime>
       <librariesFolder name="lib"/>

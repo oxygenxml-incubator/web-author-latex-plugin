@@ -173,8 +173,8 @@
         function(editedEquation) {
           var sel = sync.api.Selection.createAroundNode(xmlNode);
           actionsManager.invokeOperation(
-            'com.oxygenxml.webapp.latex.ReplaceTextContentOperation',
-            {text : editedEquation}, 
+            'ReplaceElementContentOperation',
+            {fragment : editedEquation}, 
             function() {}, 
             sel);
         });

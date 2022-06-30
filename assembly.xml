@@ -35,6 +35,14 @@
 				<include>**/*</include>
 			</includes>
 		</fileSet>
+		<fileSet>
+			<directory>resources</directory>
+			<outputDirectory>/resources</outputDirectory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+	
 	</fileSets>
 
 	<!-- In case one of your plugins needs to package its dependencies, use a section like the one below. -->
