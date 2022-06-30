@@ -3,6 +3,13 @@ Web Author LaTeX Plugin
 
 An Web Author plugin that provides rendering and editing support for embedded Latex equations.
 
+Installation
+------------
+
+- Download the appropriate release of the plugin: https://github.com/oxygenxml-incubator/web-author-latex-plugin/releases . 
+- Use the Adiministration Page of Web Author to upload the plugin
+- Restart the Web Author server
+
 Usage
 -----
 
