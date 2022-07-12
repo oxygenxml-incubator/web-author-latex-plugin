@@ -44,6 +44,6 @@ This project is based on MathJax 2.6. To keep the size within reasonable limits 
 
 Copyright and License
 ---------------------
-Copyright 2019 Syncro Soft SRL.
+Copyright 2022 Syncro Soft SRL.
 
 This project is licensed under [Apache License 2.0](https://github.com/oxygenxml/web-author-mathml-plugin/blob/master/LICENSE)
