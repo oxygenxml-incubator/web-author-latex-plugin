@@ -3,7 +3,6 @@
 <!DOCTYPE plugin SYSTEM "../plugin.dtd">
 
 <plugin
-    id="com.oxygenxml.webapp.latex.LaxtexPlugin"
     name="Latex"
     description="Provides support for editing Latex equations"
     version="${project.nosnapshot.version}"
