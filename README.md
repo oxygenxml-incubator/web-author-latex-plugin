@@ -15,7 +15,7 @@ Usage
 
 The rendering support is implemented as a custom form control with the renderer class `com.oxygenxml.webapp.latex.WebappLatexRenderer`. 
 
-By default it is added on DITA `foreign` element which has the `outputclass="latext"` attribute.
+By default it is added on DITA `foreign` element which has the `outputclass="latex"` attribute.
 
 To add it on another element you can add a CSS rule in your framework that is similar to the one below:
 
