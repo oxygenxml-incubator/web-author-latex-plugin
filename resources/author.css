@@ -1,4 +1,5 @@
-*[class*="topic/foreign"][outputclass="latex"] {
+*[class*="topic/foreign"][outputclass="latex"],
+*[class*="topic/foreign"][outputclass="embed-latex"] {
 	visibility: -oxy-collapse-text;
 	content: oxy_editor(
       webappRendererClassName, "com.oxygenxml.webapp.latex.WebappLatexRenderer"
