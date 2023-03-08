@@ -28,7 +28,9 @@ To add it on another element you can add a CSS rule in your framework that is si
   }
 ```
 
-To edit the equation the user needs to double-click the equation.
+To edit the equation the user needs to double-click the equation:
+
+<img src="LaTeXEditor.png" width="60%"/>
 
 MathJax
 -------
