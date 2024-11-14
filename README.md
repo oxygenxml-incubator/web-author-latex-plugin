@@ -1,7 +1,7 @@
-Web Author LaTeX Plugin
-=======================
+Web Author LaTeX Plugin (Experimental)
+======================================
 
-An Web Author plugin that provides rendering and editing support for embedded Latex equations.
+An experimenal Web Author plugin that provides rendering and editing support for embedded Latex equations.
 
 Installation
 ------------
