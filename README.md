@@ -6,7 +6,8 @@ An experimenal Web Author plugin that provides rendering and editing support for
 Installation
 ------------
 
-- Download the appropriate release of the plugin: https://github.com/oxygenxml-incubator/web-author-latex-plugin/releases . 
+- Make sure you have Apache Maven installed.
+- Run `mvn package` in the project's root folder. The plugin will be available in the `target` folder, with a name ending with `-plugin.jar`
 - Use the Adiministration Page of Web Author to upload the plugin
 - Restart the Web Author server
 
