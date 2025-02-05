@@ -4,6 +4,7 @@
     jax : [ "input/TeX", "output/HTML-CSS" ],
     tex2jax : {
       processEscapes : true,
+	  inlineMath: [['$', '$'], ['\\(', '\\)']],
     },
     "HTML-CSS": {
       imageFont: null
@@ -49,9 +50,8 @@
       script.src = "../plugin-resources/latex/MathJax-2.6/MathJax.js";
 
       script.text =
-          'MathJax.Hub.Config(' + JSON.stringify(config) + ');'
-          + 'MathJax.Hub.Config({tex2jax: {inlineMath:[["$","$"],["\\(","\\)"]]}});';
-
+          'MathJax.Hub.Config(' + JSON.stringify(config) + ');';
+		  
       script.onload = function() {
         scriptLoaded = true;
         loadCallbacks_.forEach(function(cb) {
@@ -188,3 +188,4 @@
         'com.oxygenxml.webapp.latex.WebappLatexRenderer', LatexEnhancer);
   });
 })();
+
